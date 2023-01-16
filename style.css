@@ -1,0 +1,74 @@
+#elem {
+    text-shadow: 5px 0px 10px rgb(223, 0, 0);
+}
+
+#elem2 {
+    text-shadow: 0px 0px 5px rgb(48, 223, 0);
+}
+#elem3 {
+    text-shadow: 10px 10px 3px rgb(0, 255, 21), -10px -10px 3px rgb(255, 0, 0);
+}
+#elem4 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 1px solid rgb(255, 0, 0);
+    box-shadow: 20px 30px 10px rgb(255, 0, 0);
+}
+#elem5 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 1px solid black;
+    box-shadow: inset 5px 5px 10px black;
+}
+#elem6 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 1px solid black;
+    box-shadow: inset 5px 5px 10px rgb(0, 255, 21), inset -5px -5px 10px rgb(0, 183, 255);
+}
+#elem7 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to top, #000000, #36ccf1);
+}
+#elem8 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to left, #000000, #b700ff);}
+#elem9 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to right, rgb(238, 255, 0) 0px, rgb(255, 0, 0) 200px, white 350px, rgb(238, 255, 0));}
+#elem10 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(#2b119e, #5e00b5);}
+#elem11{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(circle closest-side, rgb(255, 0, 0) 10px, rgb(156, 42, 42) 30px, rgb(156, 42, 42) 40px, rgb(255, 230, 7) 50px);}
+#elem12 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: repeating-linear-gradient(90deg,rgb(0, 0, 0), rgb(0, 0, 0) 5px, rgb(255, 255, 255) 5px, rgb(255, 255, 255) 10px);}
+
+#elem13 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: repeating-linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0) 5px, rgb(255, 255, 255) 5px, rgb(255, 255, 255) 10px);
+    }
+#elem14 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: repeating-radial-gradient(circle, rgb(0, 255, 255), rgb(0, 255, 255) 5px, rgb(0, 0, 0) 5px, rgb(0, 0, 0) 10px);}
